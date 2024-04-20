@@ -1,0 +1,2 @@
+data_before_mean.csv - Dáta pre tvorbu skupín, ktoré sú v groups_mean.csv spriemerované, jednotlivé skupiny sú oddelené prázdnym riadkom
+groups_mean.csv - skupiny vytvorené na základe dát z data_before_mean.csv pre vizualizáciu
