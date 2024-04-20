@@ -1,5 +1,5 @@
 const fs = require('fs');
-const fileName = 'output.csv'; //PREDTYM skuska6, skuska7 - skuska6 a 7 sme spustili bez zmeny len 2krat aby sme zistili ci budu mat rozne vysledky, output so zmenou ze sme zakomentovali kategoriu
+const fileName = 'output.csv'; 
 const columnNames = ['ODKAZ', 'KLUCOVE SLOVO', 'TOP', 'SCORE_2018/19', 'SCORE_2020/21', 'SCORE_2022/23'];
 const headerRow = columnNames.join(';') + '\n';
 fs.appendFileSync(fileName, headerRow, 'utf-8');
